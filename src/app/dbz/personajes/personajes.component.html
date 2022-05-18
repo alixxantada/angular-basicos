@@ -1,0 +1,8 @@
+<h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of personajes"> 
+                <!-- poniendo el | number indicamos que queremos que lo muestre como un numero, poniendo losp untos o comas en decimales-->
+                {{personaje.nombre}} - {{personaje.poder | number}}
+            </li>
+        </ul>

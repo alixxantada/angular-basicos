@@ -1,0 +1,13 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-personajes [personajes]="personajes">
+
+        </app-personajes>
+    </div>
+    <div class="col">
+        <!-- Aqui en el momento de declarar el componente, indico que se le pasa desde el padre(vista actual) al hijo -->
+        <app-agregar [nuevo]="nuevo"></app-agregar>
+    </div>
+</div>
